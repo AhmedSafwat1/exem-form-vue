@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'OpenSans-Light-webfont';
+    src: url('../fonts/OpenSans-Light-webfont.eot'), 
+    url('../fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/OpenSans-Light-webfont.woff') format('woff'), 
+    url('../fonts/OpenSans-Light-webfont.ttf') format('truetype'), 
+    url('../fonts/OpenSans-Light-webfont.svg#DINNextLTArabic-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*************************************************************************************/
+
+body,
+.slider-btns {
+    direction: ltr;
+    text-align: left !important;
+    font-family: 'OpenSans-Light-webfont';
+}
+
+.t-right {
+    text-align: left;
+}
+
+.form-control {
+    padding: 0 15px;
+    text-align: left;
+}
+
+.form-control.arabic,
+.test.add .test-txt,
+.teacher .block .view,
+.t-left {
+    text-align: right;
+}
+
+.form-group i,
+.personalLinks .dropdown-content > ul:after {
+    right: 15px;
+    left: auto;
+}
+
+.head-content h2:after,
+.test .choose-answer .checkmark {
+    left: 0;
+    right: auto;
+}
+
+.input-group-text i {
+    left: 0;
+    right: 0;
+}
+
+.about-us .tab-circle .nav-pills .nav-link,
+.personalLinks .dropdown-content > ul > li h3,
+.setting-tab-nav .nav-pills .nav-link {
+    text-align: left;
+}
+
+.about-us .tab-circle .nav-pills .nav-link::before {
+    left: -6px;
+    right: auto;
+}
+
+.about-us .tab-content::before {
+    width: 100%;
+}
+
+.about-us .tab-content {
+    padding: 0 20px 0 45px;
+}
+
+.personalLinks .dropdown-content,
+.upload-img i {
+    left: auto;
+    right: 0 !important;
+}
+
+.dropdown-click:hover .dropdown-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(5px);
+}
+.dropdown-content {
+    left: -35px;
+    right: auto;
+}
+
+.test .choose-answer li .answer-title {
+    padding: 0 0 0 35px;
+}
+
+.carousel-header .item .row {
+    flex-direction: row-reverse;
+}
+
+.carousel-header .search a.caro-title {
+    display: block;
+    max-width: 100%;
+}
+.carousel-header .search .caro-title {
+    display: inline-block;
+}
+
+.carousel-header.owl-carousel .owl-item img {
+    transform: rotateY(180deg);
+}
+
+.teacher-search-header select + i,
+.subscribe-form .form-group i, 
+.all-form form .form-group i {
+    right: 20px;
+    left: auto;
+}
+
+.teacher-box-abs div {
+    border-radius: 0 30px 30px 0;
+}
+
+.teacher .block .fav-flag h6 {
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+.recording .owl-hash-nav-2 .item a .left-side span {
+    right: 6px;
+    left: auto;
+}
+
+.all-news-title::after {
+    top: 9px;
+    right: 0px;
+    left: auto;
+}
+
+.form-group .btn-abs {
+    right: 8px;
+    left: auto;
+}
+
+.all-form a.color2 i {
+    transform: rotateY(180deg) !important;
+}
+
+.setting-tab-nav .nav-pills .nav-link::before {
+    top: 13px;
+    left: -6px;
+}
+
+@media(max-width:767px) {
+
+    .mob-collaps {
+        right: 15px;
+        left: auto;
+    }
+
+    .menu .nav-links > ul:first-child {
+        transform-origin: left;
+        transform: translateX(-100%);
+    }
+
+    .menu .nav-links ul.nav-open {
+        transform: translateX(0);
+    }
+
+}
